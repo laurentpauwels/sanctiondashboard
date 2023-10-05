@@ -48,7 +48,7 @@ The data are from the following sources:
 All the data parsing and preprocessing are done in MATLAB. In this repository, we provide the processed data as indicated above. 
 
 ### Cleaning
-If you need access to the raw data manipulations, please head to [sanction repository](https://github.com/laurentpauwels/sanctions). It contains all the replication files for Imbs and Pauwels (2023, Economic Policy) including all data manipulations. 
+If you need access to the raw data manipulations, please head to [sanctionpaper](https://github.com/laurentpauwels/sanctionpaper)  repository. It contains all the replication files for Imbs and Pauwels (2023, Economic Policy) including all data manipulations. 
 
 Look for `matlab/processData.m` and the scripts that parse and pre-process the ICIO21 and SEA16 data (`processICIO21.m` and `processSEA16.m`). Processing the ICIO21 and WIOT16 data requires two functions (in `/matlab/functions`): `idExtract.m` and  `netInventCorrect.m`. 
 
