@@ -1,4 +1,4 @@
-# Core Code for Sanction Impact Dashboard (https://exposure.trade)
+# Core Code for Sanction Impact Dashboard
 
 ## Introduction
 
