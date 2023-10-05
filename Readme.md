@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repo contains the core code that reproduces the computations of the online Dashboard https://exposure.trade. 
+This repository contains the core code that reproduces the computations of the online Dashboard https://exposure.trade. 
 
 The code computes an empirical approximation to the costs of trade sanctions. The approximation is empirical, which means it does not rely on a calibrated model and therefore does not rely on a calibration of any elasticity of substitution. We extract from the historical patterns of trade the components that would be set to zero under an embargo. The share of these components in output represents the approximate impact of the sanction. Importantly, the approximation considers the indirect consequences of the embargo, in the sense that it incorporates the forgone activity corresponding to the linkages located downstream and upstream of the embargoed good. The core code of the dashboard reports the forgone value added at sector level, averaged up to the country level, for all parties involved in the trade sanction.
 
