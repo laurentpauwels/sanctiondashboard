@@ -79,12 +79,12 @@ NOTE: MATLAB `.mat` files are converted to `.npy` data files with `convertMat.py
 
 The MATLAB master file `runSanctionCode.m` and Python master file `runSanctionCode.py` computes the real value added impact of trade sanctions by a set of countries on another country's industries. For example the 27 EU countries (+UK) sanctioning Russian Energy products. The Downstream impact (response) is the real value added response of Russian sectors due to the sanctions. The Upstream impact (response) is the real value added response of the individual EU countries and sectors (+ UK) from imposing such sanctions with Russia. 
 
-1. MATLAB requires the functions listed here: 
+1. MATLAB requires the functions (in `/matlab/functions`) listed here: 
 	- `downstreamBan.m` computes HOT for the downstream impact of trade sanctions on the country/ies-sector(s) sanctioned.
 	- `upstreamBan.m` computes SHOT for the upstream impact of trade sanctions on the countries imposing the sanctions.
 	- `approxResponse.m` calculates the approximate real value added response according to HOT or SHOT.
 
-2. Python `runSanctionCode.py` code contains the same functions as in MATLAB but imbedded in the code as `def`. 
+2. Python `runSanctionCode.py` code contains the same code as in MATLAB but **with the functions (`def`) imbedded in the python master file** `runSanctionCode.py`. For convenience, the same three functions are included as separate `.py` files in `/python/functions` with a brief description as for the MATLAB functions. 
 
 The output are two CSV files in the respective `/matlab/output` and `/python/output` folders. One file records the downstream approximate responses (`table_downstream.csv`) and the other the upstream approximate responses (`table_upstream.csv`). 
 

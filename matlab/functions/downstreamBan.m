@@ -8,7 +8,7 @@ function HOT = downstreamBan(Z,F,emb_i,emb_j,emb_r)
 %       F     Double      Final demand (NRxN) matrix
 %       emb_i Double      sanctioned country/ies
 %       emb_r Double      sanctioned industry/ies
-%       emb_j Double      country/ies sanctionning embi
+%       emb_j Double      country/ies sanctioning embi
 % Output:
 %       HOT  Double       downstream sanctions' impact (embr x embi)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
